@@ -2,7 +2,7 @@ from lyricsgenius import Genius
 import pandas as pd
 
 # Define your Genius API access token
-genius = Genius('insert access token')
+genius = Genius('insert token')
 
 
 # Function to get song annotations and return them as a DataFrame
