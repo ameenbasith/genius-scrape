@@ -5,6 +5,7 @@ import pandas as pd
 genius = Genius('insert token')
 
 
+
 # Function to get song annotations and return them as a DataFrame
 def get_annotations_as_dataframe(song):
     annotations = genius.song_annotations(song.id)
