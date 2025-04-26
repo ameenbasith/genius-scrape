@@ -1,0 +1,6 @@
+streamlit
+lyricsgenius
+pandas
+matplotlib
+nltk
+scikit-learn
