@@ -1,0 +1,37 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+.venv/
+env/
+ENV/
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Streamlit-specific
+.streamlit/
+
+# Project-specific
+*.csv
+*.png
+.DS_Store
+
+# IDE-specific (PyCharm)
+.idea/
