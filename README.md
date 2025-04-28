@@ -152,3 +152,8 @@ This application uses:
 - [NLTK](https://www.nltk.org/) for natural language processing
 - [Matplotlib](https://matplotlib.org/) for data visualization
 - [Pandas](https://pandas.pydata.org/) for data analysis
+
+## Medium
+
+Read more about this project here:
+https://medium.com/@ameenbasith2000/breaking-down-lyrics-how-i-built-a-tool-to-analyze-song-complexity-and-enhance-songwriting-d3f8778065e3
