@@ -38,16 +38,10 @@ class GeniusLyricsAnalyzer:
         """Get all songs from an album"""
         return self.genius.search_album(album_name, artist_name)
 
-    # Add this to your get_artist_songs method
     def get_artist_songs(self, artist_name, max_songs=10):
         """Get songs by an artist (limited to max_songs)"""
-        try:
-            artist = self.genius.search_artist(artist_name, max_songs=max_songs)
-            return artist.songs if artist else []
-        except Exception as e:
-            print(f"Error accessing Genius API: {str(e)}")
-            # Add more detailed error handling if needed
-            return []
+        artist = self.genius.search_artist(artist_name, max_songs=max_songs)
+        return artist.songs if artist else []
 
     def process_song(self, song, status_callback=None):
         """Process a song to extract lyrics and annotations"""
